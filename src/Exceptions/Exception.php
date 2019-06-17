@@ -1,6 +1,6 @@
 <?php
 
-namespace Tumobi\QQMapRegion\Exceptions;
+namespace Shenstef\QQLbs\Exceptions;
 
 class Exception extends \Exception
 {

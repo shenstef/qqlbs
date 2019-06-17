@@ -1,10 +1,10 @@
 <?php
 
-namespace Tumobi\QQMapRegion;
+namespace Shenstef\QQLbs;
 
 use GuzzleHttp\Client;
-use Tumobi\QQMapRegion\Exceptions\HttpException;
-use Tumobi\QQMapRegion\Exceptions\InvalidArgumentException;
+use Shenstef\QQLbs\Exceptions\HttpException;
+use Shenstef\QQLbs\Exceptions\InvalidArgumentException;
 
 class Region
 {

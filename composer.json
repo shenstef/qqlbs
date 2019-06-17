@@ -1,5 +1,5 @@
 {
-    "name": "tumobi/qqmap-region",
+    "name": "shenstef/qqlbs",
     "description": "腾讯位置服务中国标准行政区划数据 SDK",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tumobi\\QQMapRegion\\": "src"
+            "Shenstef\\QQLbs\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tumobi\\QQMapRegion\\ServiceProvider"
+                "Shenstef\\QQLbs\\ServiceProvider"
             ]
         }
     }
