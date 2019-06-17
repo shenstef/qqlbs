@@ -14,9 +14,9 @@ class Ip2City
 
     private $caches = [];
 
-    public function __construct($key)
+    public function __construct()
     {
-        $this->key = $key;
+        $this->key = config('services.qqlbs.key');
     }
 
     public function getCity($ip)
