@@ -9,11 +9,11 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->app->singleton(Region::class, function(){
-            return new Region(config('services.region.key'));
+            return new Region(config('services.qqlbs.key'));
         });
 
         $this->app->singleton(Ip2City::class, function(){
-            return new Ip2City(config('services.region.key'));
+            return new Ip2City(config('services.qqlbs.key'));
         });
 
         $this->app->alias(Region::class, 'region');
